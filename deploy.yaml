@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: my-cd-demo-app
+    labels:
+        type: nginx
+spec:
+    replicas: 3
+    selector:
+        matchLabels:
+            type: nginx
+    template:
+        metadata:
+            labels:
+                type: nginx
+        spec:    
+            containers:
+              - name: my-app
+                image: nginx

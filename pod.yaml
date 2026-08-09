@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+    name: my-app
+spec:
+    containers:
+    - name: my-app
+      image: muralikrishnavaitla/my-app:19
