@@ -1,0 +1,6 @@
+replicaCount: 2
+
+image:
+  repository: docker.io/muralikrishnavaitla/devops-sample-project
+  tag: "13"
+  pullPolicy: IfNotPresent
