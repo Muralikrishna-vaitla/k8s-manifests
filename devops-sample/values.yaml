@@ -1,6 +1,6 @@
-replicaCount: 2
+replicaCount: 4
 
 image:
   repository: docker.io/muralikrishnavaitla/devops-sample-project
-  tag: "13"
+  tag: "latest"
   pullPolicy: IfNotPresent
