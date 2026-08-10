@@ -16,4 +16,4 @@ spec:
         spec:    
             containers:
               - name: my-app
-                image: muralikrishnavaitla/devops-sample-project:13
+                image: docker.io/muralikrishnavaitla/devops-sample-project:13
