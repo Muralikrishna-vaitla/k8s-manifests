@@ -16,4 +16,4 @@ spec:
         spec:    
             containers:
               - name: my-app
-                image: nginx
+                image: muralikrishnavaitla/devops-sample-project:latest
